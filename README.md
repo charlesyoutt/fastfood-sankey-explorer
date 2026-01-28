@@ -14,9 +14,9 @@ Given a fast food nutrition dataset, the system:
 - **Visualizes relationships using a Sankey diagram**
 - **Allows users to interactively explore the data through a web dashboard**
 
-The Sankey diagram highlights how menu items flow from restaurants into different calorie categories, weighted by fat content. It compares calorie distributions across restaurants, using the selected restaurant to define the calorie ranges shown. The fat slider filters out menu items above a chosen fat threshold, allowing users to focus on lower-fat options.
+The Sankey diagram highlights how menu items flow from restaurants into different calorie categories, weighted by fat content. It compares calorie distributions across restaurants, using the selected restaurant to define the calorie ranges shown. The fat slider filters out menu items above a chosen fat threshold, allowing users to focus on lower-fat options. This will help people make better decisions when wanting to cut down on fats and see how many calories there are in food options. 
 
-This will help people make better decisions when wanting to cut down on fats and see how many calories there are in food options. This also allows people to compare how many menu items at different restaurants meet their specific fat and calorie criterias based on their chosen restaurant, allowing them to **find similar meals** at other restaurants **with same or fewer calories**.
+**Ultimately, the sankey allows people to compare how many menu items at different restaurants meet their specific fat and calorie criterias based on their chosen restaurant, allowing them to find similar meals at other restaurants with same or fewer calories.**
 
 ## How It’s Built
 The project is organized into a few core components:

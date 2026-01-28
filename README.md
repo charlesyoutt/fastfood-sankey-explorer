@@ -8,11 +8,11 @@ The focus of this project is **interactive data exploration and visualization de
 ## What This Does
 Given a fast food nutrition dataset, the system:
 
-- Filters menu items by restaurant
-- Applies a maximum fat threshold
-- Buckets items into calorie ranges
-- Visualizes relationships using a Sankey diagram
-- Allows users to interactively explore the data through a web dashboard
+- **Filters menu items by restaurant**
+- **Applies a maximum fat threshold**
+- **Buckets items into calorie ranges**
+- **Visualizes relationships using a Sankey diagram**
+- **Allows users to interactively explore the data through a web dashboard**
 
 The Sankey diagram highlights how menu items flow from restaurants into different calorie categories, weighted by fat content. It compares calorie distributions across restaurants, using the selected restaurant to define the calorie ranges shown. The fat slider filters out menu items above a chosen fat threshold, allowing users to focus on lower-fat options.
 
@@ -29,12 +29,11 @@ The dashboard is served locally and updates dynamically as users change inputs.
 ## Technical Concepts
 This project touches a mix of data science and visualization concepts, including:
 
-- Interactive data visualization
-- Network-style (Sankey) diagrams
-- Data binning and aggregation
-- Dashboard development with Panel
-- Modular Python design
-- Separation of data processing and presentation logic
+- **Interactive data visualization**
+- **Network-style (Sankey) diagrams**
+- **Data binning and aggregation**
+- **Dashboard development with Panel**
+- **Modular Python design**
 
 ## Results & Demo
 

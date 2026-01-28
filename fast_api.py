@@ -50,7 +50,7 @@ class FASTAPI:
         :return: A filtered DataFrame containing relevant fast food data
         """
 
-        fast = pd.read_csv('fastfood.csv').copy()
+        fast = pd.read_csv('data/fastfood.csv').copy()
 
         # round calories and fat content into bins
         fast['calories_100'] = fast['calories'] // 100 * 100
@@ -86,7 +86,7 @@ def main():
 
     # initialize the API
     fastapi = FASTAPI()
-    fastapi.load_fast('fastfood.csv')
+    fastapi.load_fast('data/fastfood.csv')
 
     # search parameters
     restaurant = 'mcdonalds'

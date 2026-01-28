@@ -15,7 +15,7 @@ pn.extension()
 
 # initialize fastAPI
 api = FASTAPI()
-api.load_fast("fastfood.csv")
+api.load_fast("data/fastfood.csv")
 
 # search Widgets
 restaurant = pn.widgets.Select(name="Restaurant", options=api.get_restaurants(), value='mcdonalds')
